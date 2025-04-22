@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+@theme {
+  /* Primary colors */
+  --color-primary: #8050dc;
+  --color-primary-hover: #6a3ec1;
+  --color-on-primary: #ffffff;
+
+  /* Accent colors */
+  --color-accent: #f97316;
+  --color-accent-hover: #ea580c;
+  --color-on-accent: #ffffff;
+
+  /* Neutrals */
+  --color-text: #374151;
+  --color-bg-light: #f9fafb;
+  --color-bg: #ffffff;
+}
+
+.link-accent {
+  color: var(--color-accent);
+  text-underline-offset: 4px;
+}
+
+.link-accent:hover {
+  color: var(--color-accent-hover);
+}

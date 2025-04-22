@@ -1,19 +1,14 @@
-'use client';
+"use client";
 
 export default function Icon({
   icon: IconComponent,
-  className = '',
+  className = "",
   ...props
 }) {
   if (!IconComponent) {
-    console.warn('⚠️ Icon component is not provided.');
+    console.warn("⚠️ Icon component is not provided.");
     return null;
   }
 
-  return (
-    <IconComponent
-      className={className}
-      {...props}
-    />
-  );
+  return <IconComponent className={className} {...props} />;
 }

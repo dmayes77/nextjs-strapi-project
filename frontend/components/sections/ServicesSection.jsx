@@ -5,7 +5,7 @@ import * as Icons from "react-icons/lu";
 
 export default function ServicesSection() {
   return (
-    <section className="bg-white py-24">
+    <section id="services" className="bg-white py-24">
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         <h2 className="text-lg font-semibold text-indigo-600 uppercase tracking-wide">
           {servicesSection.title}

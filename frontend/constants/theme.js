@@ -1,6 +1,20 @@
 export const theme = {
-  primaryColor: "#1D4ED8",
-  secondaryColor: "#F97316",
+  // Primary brand colors
+  primaryColor: "var(--color-primary)",
+  primaryHover: "var(--color-primary-hover)",
+  onPrimary: "var(--color-on-primary)",
+
+  // Accent (secondary) brand colors
+  secondaryColor: "var(--color-accent)",
+  secondaryHover: "var(--color-accent-hover)",
+  onSecondary: "var(--color-on-accent)",
+
+  // Neutral and text colors
+  textColor: "var(--color-text)",
+  backgroundColor: "var(--color-bg)",
+  backgroundAccent: "var(--color-bg-light)",
+
+  // Typography and branding
   fontFamily: "Inter, sans-serif",
-  logoUrl: "/logos/client-logo.svg",
+  logoPublicId: "pixel-n-code/logo-images/pixel-n-code-logo_hzptmv",
 };
